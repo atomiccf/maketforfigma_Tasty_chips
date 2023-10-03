@@ -1,10 +1,9 @@
-.main {
-  background-color: #B1464A;
-}
-
 /*header*/
 header {
+  background-color: #B1464A;
   border-bottom: solid #C97F82;
+  padding-bottom: 28px;
+  padding-top: 38px;
 }
 
 .header_container {
@@ -27,9 +26,10 @@ header {
 }
 .header_navigation ul li {
   margin-right: 47px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
   color: #FFFFFF;
 }
 
@@ -41,19 +41,130 @@ header {
 .header_search_block #header_search {
   width: 24px;
   height: 24px;
+  border: none;
   border-radius: 6px;
   margin-right: 20px;
   background: #FFFFFF url(../img/search_img.png) no-repeat 3px 1px;
+  transition: width 2s;
 }
 .header_search_block #header_search:focus {
   width: 300px;
 }
 .header_search_block #header_cart {
-  width: 27px;
-  height: 27px;
+  width: 24px;
+  height: 24px;
   border-radius: 6px;
   background: #FFFFFF url(../img/cart_img.png) no-repeat center;
   border: none;
+  cursor: pointer;
+}
+
+/*chips section*/
+section {
+  padding-top: 28px;
+  background-color: #B1464A;
+  height: auto;
+}
+
+.chips_section_container {
+  width: 1320px;
+  margin: 0 auto;
+}
+.chips_section_container h1 {
+  margin: 0 0 45px;
+  text-align: center;
+  font-family: Scotch Deck, serif;
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.chips_section_container .chips_section_flex_container {
+  display: flex;
+  justify-content: space-between;
+}
+.chips_section_container .chips_section_one {
+  display: flex;
+  flex-direction: column;
+}
+.chips_section_container .chips_section_one .chips_section_review {
+  position: relative;
+  margin-bottom: 110px;
+  display: flex;
+}
+.chips_section_container .chips_section_one .chips_section_review img {
+  position: absolute;
+}
+.chips_section_container .chips_section_one .chips_section_review img:nth-child(2) {
+  left: 33px;
+}
+.chips_section_container .chips_section_one .chips_section_review img:nth-child(3) {
+  left: 65px;
+}
+.chips_section_container .chips_section_one .chips_section_review span {
+  position: absolute;
+  left: 113px;
+  color: #FFF;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135.5%;
+  letter-spacing: -0.4px;
+  text-transform: capitalize;
+}
+.chips_section_container .chips_section_one .chips_section_one_svg {
+  display: flex;
+  flex-direction: row;
+}
+.chips_section_container .chips_section_one .chips_section_one_svg svg {
+  margin-right: 7px;
+}
+.chips_section_container .chips_section_one_button {
+  width: 203px;
+  height: 55px;
+  margin-bottom: 68px;
+  border-radius: 10px;
+  border: 2px solid #FFF;
+  color: #FFFFFF;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135.5%; /* 27.1px */
+  letter-spacing: -0.4px;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+.chips_section_container .chips_section_two {
+  position: relative;
+  width: 300px;
+}
+.chips_section_container .chips_section_two svg {
+  position: absolute;
+  right: 382px;
+}
+.chips_section_container .chips_section_two ul {
+  position: absolute;
+  top: -110px;
+  left: 220px;
+  width: 100px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  transform: rotate(90deg);
+}
+.chips_section_container .chips_section_two ul li {
+  margin-right: 36px;
+  color: #FFF;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135.5%; /* 27.1px */
+  letter-spacing: -0.4px;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
