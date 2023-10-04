@@ -41,18 +41,22 @@ header {
 .header_search_block #header_search {
   width: 24px;
   height: 24px;
+  padding: 16px;
   border: none;
   border-radius: 6px;
   margin-right: 20px;
-  background: #FFFFFF url(../img/search_img.png) no-repeat 3px 1px;
+  background: #FFFFFF url(../img/search_img.png) no-repeat center;
   transition: width 2s;
 }
 .header_search_block #header_search:focus {
   width: 300px;
+  background: #FFFFFF;
 }
 .header_search_block #header_cart {
+  display: block;
   width: 24px;
   height: 24px;
+  padding: 16px;
   border-radius: 6px;
   background: #FFFFFF url(../img/cart_img.png) no-repeat center;
   border: none;
@@ -91,6 +95,7 @@ section {
   position: relative;
   margin-bottom: 110px;
   display: flex;
+  align-items: center;
 }
 .chips_section_container .chips_section_one .chips_section_review img {
   position: absolute;
@@ -103,6 +108,7 @@ section {
 }
 .chips_section_container .chips_section_one .chips_section_review span {
   position: absolute;
+  width: 130px;
   left: 113px;
   color: #FFF;
   font-family: Poppins, sans-serif;
@@ -127,6 +133,7 @@ section {
   border-radius: 10px;
   border: 2px solid #FFF;
   color: #FFFFFF;
+  background: #B1464A;
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -134,7 +141,10 @@ section {
   line-height: 135.5%; /* 27.1px */
   letter-spacing: -0.4px;
   text-transform: capitalize;
-  background-color: transparent;
+}
+.chips_section_container .chips_section_one_button span {
+  display: block;
+  background: url("/img/arrow_mine.png") right no-repeat;
 }
 .chips_section_container .chips_section_two {
   position: relative;
@@ -142,9 +152,9 @@ section {
 }
 .chips_section_container .chips_section_two svg {
   position: absolute;
-  right: 382px;
+  right: 298px;
 }
-.chips_section_container .chips_section_two ul {
+.chips_section_container .chips_section_two .chips_section_size {
   position: absolute;
   top: -110px;
   left: 220px;
@@ -155,13 +165,35 @@ section {
   flex-direction: row;
   transform: rotate(90deg);
 }
-.chips_section_container .chips_section_two ul li {
+.chips_section_container .chips_section_two .chips_section_size li {
   margin-right: 36px;
   color: #FFF;
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
+  line-height: 135.5%; /* 27.1px */
+  letter-spacing: -0.4px;
+  text-transform: capitalize;
+}
+.chips_section_container .chips_section_two .explore_button {
+  position: absolute;
+  bottom: 0;
+  right: 67px;
+  width: 80px;
+  height: 80px;
+  padding-left: 100px;
+  border: none;
+  border-radius: 12px;
+  background: transparent url("/img/arrow_explore.png") no-repeat;
+}
+.chips_section_container .chips_section_two .explore_button:before {
+  content: "Explore";
+  color: #FFF;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
   line-height: 135.5%; /* 27.1px */
   letter-spacing: -0.4px;
   text-transform: capitalize;
