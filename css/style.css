@@ -211,7 +211,7 @@ header {
   position: absolute;
   top: 507px;
   left: 685px;
-  background-image: url("/img/chips_bacon.png");
+  background-image: url("../img/chips_bacon.png");
   background-size: cover;
   width: 480px;
   height: 624px;
@@ -347,13 +347,13 @@ header {
 .chips_second_header_product_img {
   width: 493px;
   height: 489px;
-  background-image: url(/img/chips_spicy.png);
+  background-image: url(../img/chips_spicy.png);
 }
 
 .chips_second_header_product_two {
   width: 295px;
   height: 318px;
-  background-image: url(/img/chips_onion.png);
+  background-image: url(../img/chips_onion.png);
 }
 
 .product_one_grid_container {
