@@ -343,13 +343,13 @@ header {
 .chips_second_header_product_img {
   width: 493px;
   height: 489px;
-  background: url("/img/chips_spicy.png") no-repeat;
+  background: url("img/chips_spicy.png") no-repeat;
 }
 
 .chips_second_header_product_two {
   width: 295px;
   height: 318px;
-  background: url("/img/chips_onion.png") no-repeat;
+  background: url("img/chips_onion.png") no-repeat;
 }
 
 .product_one_grid_container {
