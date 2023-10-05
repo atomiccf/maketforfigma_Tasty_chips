@@ -273,10 +273,13 @@
 }
 .chips_img {
   position: absolute;
-  top:506px;
-
+  top:507px;
+  left: 685px;
+  background-image: url("/img/chips_bacon.png");
+  background-size: cover;
   width: 480px;
   height: 624px;
+  margin-bottom: 37px;
   transform: rotate(2deg);
 
 
