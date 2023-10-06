@@ -277,7 +277,7 @@
   left: 685px;
   background-image: url("../img/chips_bacon.png");
   background-size: cover;
-  width: 480px;
+  width: 549px;
   height: 624px;
   margin-bottom: 37px;
   transform: rotate(2deg);
@@ -291,13 +291,24 @@
 }
 
 .slider_controls{
-  width: 1320px;
-  margin: 0 auto;
-  height: 407px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin-bottom: 80px;
   align-items: center;
   justify-content: center;
+
+  .slider_controls_container{
+    width: 1320px;
+    margin: 0 auto;
+    display: contents;
+
+  }
+  .controls{
+
+    margin-top: 168px;
+
+
+  }
 
 button{
 
@@ -323,6 +334,7 @@ button{
 
   width: 1320px;
   margin: 0 auto;
+
 
 }
 .chips_second_section_wrapper {
@@ -454,6 +466,20 @@ button{
 
 }
 
+.product_section_container{
+
+  width: 1320px;
+  margin: 0 auto;
+
+}
+
+.product_section{
+
+  margin-bottom: 381px;
+
+
+}
+
 .chips_second_header_product_img{
 
   width: 493px;
@@ -491,8 +517,8 @@ button{
   grid-template-columns: 350px 880px;
   column-gap: 90px;
   position: absolute;
-  top: 2208px;
-
+  top: 2084px;
+  margin-bottom: 110px;
 hr{
 
   background: #D9D9D9;
@@ -540,5 +566,91 @@ hr{
   white-space: normal;
 
 
+
+}
+
+.product_article{
+
+  width: 100%;
+  height: 643px;
+  background: #FFF0DE;
+
+
+}
+
+.product_article_container{
+
+  width: 1320px;
+  margin: 0 auto;
+
+
+}
+
+.product_article_img{
+
+  width: 467px;
+  height: 463px;
+  background-image: url(../img/chips_circle.png)
+
+}
+
+.product_article_img_all{
+
+  width: 100%;
+  height: 187px;
+  background-image: url(../img/all_products.png) ,radial-gradient(86.9% 86.9% at 50% 50%, #F4777C 0%, #7D0F13 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product_article_grid_container{
+
+  display: grid;
+  padding-top: 90px;
+  grid-template-columns: 506px 1fr;
+  align-items: end;
+  justify-items: start
+}
+
+.product_article_flex_container{
+
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+hr{
+
+  background: #D9D9D9;
+  width: 100%;
+  height: 2px;
+
+}
+.product_article_header{
+
+  color: #1E2438;
+  font-family: Scotch Deck,serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+
+
+
+}
+
+.product_article_text{
+
+  color: #1E2438;
+  font-family: Poppins,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+  text-transform: capitalize;
+  text-align: justify;
+  white-space: normal;
 
 }
