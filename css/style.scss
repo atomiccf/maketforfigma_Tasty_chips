@@ -1,7 +1,7 @@
 
-.main{
+button{
 
-
+cursor: pointer;
 
 }
 
@@ -537,6 +537,17 @@ hr{
   color: #B1464A;
 
 
+  span {
+
+      padding-right: 30px;
+      background-image: url("../img/red_arrow.png");
+      background-position: right;
+      background-repeat: no-repeat;
+
+
+
+
+  }
 
 }
 
@@ -607,9 +618,12 @@ hr{
 
   display: grid;
   padding-top: 90px;
-  grid-template-columns: 506px 1fr;
+  grid-template-columns: 467px 1fr;
   align-items: end;
-  justify-items: start
+  justify-items: start;
+  column-gap: 39px;
+
+
 }
 
 .product_article_flex_container{
@@ -620,6 +634,7 @@ hr{
 
 
 }
+
 hr{
 
   background: #D9D9D9;
@@ -628,7 +643,7 @@ hr{
 
 }
 .product_article_header{
-
+  margin: 0;
   color: #1E2438;
   font-family: Scotch Deck,serif;
   font-size: 80px;
@@ -642,7 +657,8 @@ hr{
 }
 
 .product_article_text{
-
+  margin-top: 20px;
+  margin-bottom: 57px;
   color: #1E2438;
   font-family: Poppins,sans-serif;
   font-size: 16px;
@@ -653,4 +669,93 @@ hr{
   text-align: justify;
   white-space: normal;
 
+}
+
+.product_article_two_container{
+  width: 1320px;
+  margin: 0 auto;
+
+  .product_article_two_grid_container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+  }
+  .product_article_two_flex_container{
+
+  margin-left: 18px;
+
+
+  }
+
+ .product_article_header_one{
+
+   color: #1E2438;
+   font-family: Scotch Deck,serif;
+   font-size: 74px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-transform: capitalize;
+
+
+
+ }
+ .product_article_two_img{
+   width: 436px;
+   height: 492px;
+   background-image: url(../img/pizza_hut_chips.png);
+   background-repeat: no-repeat;
+
+ }
+
+  .product_article_two_header_two{
+
+    color: #1E2438;
+    font-family: Scotch Deck,serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+
+
+
+  }
+
+  .product_article_two_text {
+
+    color: #1E2438;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    text-transform: capitalize;
+    text-align: justify;
+    white-space: normal;
+
+
+  }
+
+  .product_article_two_button {
+
+    width: 184px;
+    height: 55px;
+    padding: 14px 28px 14px 28px;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #B1464A;
+    color: #B1464A;
+
+    span {
+      padding-right: 30px;
+      background-image: url("../img/red_arrow.png");
+      background-position: right;
+      background-repeat: no-repeat;
+
+    }
+
+  }
 }
