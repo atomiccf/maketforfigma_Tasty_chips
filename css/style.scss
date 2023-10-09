@@ -12,7 +12,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  height: 100%;
+/*  height: 100%;*/
 
 }
 
@@ -76,12 +76,13 @@ button{
   display: flex;
   flex-direction: row;
   align-items: center;
-
+  justify-content: flex-end;
+  width: 500px;
   #header_search{
 
     width:56px;
     height: 56px;
-    padding: 16px;
+
     border: none;
     border-radius: 6px;
     margin-right: 20px;
@@ -89,7 +90,7 @@ button{
     transition: width 2s ;
 
     &:focus{
-      width: 300px;
+      width: 400px;
       background: #FFFFFF;
     }
 
@@ -263,7 +264,7 @@ button{
     .explore_button {
       position: absolute;
       bottom: 0;
-      right: 67px;
+      right: 72px;
       width: 80px;
       height: 80px;
       padding-left: 100px;
@@ -847,6 +848,7 @@ hr{
 
     width: 526px;
     height: 70px;
+    padding-left: 5px;
     border-radius: 6px;
     background: #FFF;
     color: rgba(30, 36, 56, 0.51);
