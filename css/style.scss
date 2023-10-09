@@ -1,3 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
 
 button{
 
@@ -61,8 +79,8 @@ button{
 
   #header_search{
 
-    width:24px;
-    height: 24px;
+    width:56px;
+    height: 56px;
     padding: 16px;
     border: none;
     border-radius: 6px;
@@ -78,8 +96,8 @@ button{
   }
   #header_cart{
     display: block;
-    width:24px;
-    height: 24px;
+    width:56px;
+    height: 56px;
     padding: 16px;
     border-radius: 6px;
     background: #FFFFFF url(../img/cart_img.png) no-repeat center;
@@ -182,6 +200,7 @@ button{
     width: 203px;
     height: 55px;
     margin-bottom: 68px;
+    padding-right: 10px;
     border-radius: 10px;
     border: 2px solid #FFF;
     color: #FFFFFF;
@@ -216,7 +235,7 @@ button{
     .chips_section_size{
       position: absolute;
       top:-110px;
-      left: 220px;
+      left: 239px;
       width: 100px;
       margin: 0;
       list-style: none;
@@ -280,7 +299,7 @@ button{
 
 .chips_img {
   position: absolute;
-  top:507px;
+  top:453px;
   left: 685px;
   background-image: url("../img/chips_bacon.png");
   background-size: cover;
@@ -414,7 +433,7 @@ button{
   padding-left: 90px;
 
   .second_header{
-    margin: 0;
+    margin-bottom: 20px;
     color: #1E2438;
     font-family: Scotch Deck,serif;
     font-size: 32px;
@@ -427,7 +446,7 @@ button{
 
   }
   hr{
-
+    margin-bottom: 20px;
     background: #D9D9D9;
     width: 100%;
     height: 2px;
@@ -522,12 +541,12 @@ button{
   grid-template-columns: 350px 880px;
   column-gap: 90px;
   position: absolute;
-  top: 2084px;
+  top: 2019px;
   margin-bottom: 110px;
 hr{
 
   background: #D9D9D9;
-
+  margin-bottom: 20px;
 
 }
 }
@@ -535,6 +554,7 @@ hr{
 .chips_second_header_product_two_article_button{
   width: 184px;
   height: 55px;
+  margin-bottom: 70px;
   padding: 14px 28px 14px 28px;
   background: transparent;
   border-radius: 10px;
@@ -557,7 +577,7 @@ hr{
 }
 
 .chips_second_header_product_two_header{
-
+  margin-bottom: 20px;
   color: #1E2438;
   font-family: Scotch Deck,serif;
   font-size: 32px;
@@ -725,7 +745,7 @@ hr{
  }
 
   .product_article_two_header_two{
-
+    margin-bottom: 12px;
     color: #1E2438;
     font-family: Scotch Deck,serif;
     font-size: 24px;
@@ -739,7 +759,7 @@ hr{
   }
 
   .product_article_two_text {
-
+    margin-bottom: 30px;
     color: #1E2438;
     font-family: Poppins,sans-serif;
     font-size: 16px;
@@ -784,8 +804,8 @@ hr{
 
 .newsletter_block {
     position: relative;
-    width: 662px;
-    height: 263px;
+    width: 1002px;
+    height: 463px;
     margin-bottom: 90px;
     background: #B1464A;
     display: inline-flex;
@@ -840,7 +860,7 @@ hr{
 
   button{
     position: absolute;
-    top: 317px;
+    top: 288px;
     right: 243px;
     width: 172px;
     height: 49px;
@@ -941,6 +961,26 @@ footer {
       }
     }
     }
+
+  hr{
+
+    background: rgba(255, 255, 255, 0.20);
+
+  }
+  .footer_copyright {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Hind, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29.709px;
+    text-transform: capitalize;
+
+
+  }
 
 }
 

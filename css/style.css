@@ -1,3 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 button {
   cursor: pointer;
   border: 2px solid #B1464A;
@@ -45,8 +61,8 @@ header {
   align-items: center;
 }
 .header_search_block #header_search {
-  width: 24px;
-  height: 24px;
+  width: 56px;
+  height: 56px;
   padding: 16px;
   border: none;
   border-radius: 6px;
@@ -60,8 +76,8 @@ header {
 }
 .header_search_block #header_cart {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 56px;
+  height: 56px;
   padding: 16px;
   border-radius: 6px;
   background: #FFFFFF url(../img/cart_img.png) no-repeat center;
@@ -138,6 +154,7 @@ header {
   width: 203px;
   height: 55px;
   margin-bottom: 68px;
+  padding-right: 10px;
   border-radius: 10px;
   border: 2px solid #FFF;
   color: #FFFFFF;
@@ -165,7 +182,7 @@ header {
 .chips_section_container .chips_section_two .chips_section_size {
   position: absolute;
   top: -110px;
-  left: 220px;
+  left: 239px;
   width: 100px;
   margin: 0;
   list-style: none;
@@ -215,7 +232,7 @@ header {
 
 .chips_img {
   position: absolute;
-  top: 507px;
+  top: 453px;
   left: 685px;
   background-image: url("../img/chips_bacon.png");
   background-size: cover;
@@ -315,7 +332,7 @@ header {
   padding-left: 90px;
 }
 .second .second_header {
-  margin: 0;
+  margin-bottom: 20px;
   color: #1E2438;
   font-family: Scotch Deck, serif;
   font-size: 32px;
@@ -325,6 +342,7 @@ header {
   text-transform: capitalize;
 }
 .second hr {
+  margin-bottom: 20px;
   background: #D9D9D9;
   width: 100%;
   height: 2px;
@@ -389,16 +407,18 @@ header {
   grid-template-columns: 350px 880px;
   column-gap: 90px;
   position: absolute;
-  top: 2084px;
+  top: 2019px;
   margin-bottom: 110px;
 }
 .product_two_grid_container hr {
   background: #D9D9D9;
+  margin-bottom: 20px;
 }
 
 .chips_second_header_product_two_article_button {
   width: 184px;
   height: 55px;
+  margin-bottom: 70px;
   padding: 14px 28px 14px 28px;
   background: transparent;
   border-radius: 10px;
@@ -413,6 +433,7 @@ header {
 }
 
 .chips_second_header_product_two_header {
+  margin-bottom: 20px;
   color: #1E2438;
   font-family: Scotch Deck, serif;
   font-size: 32px;
@@ -539,6 +560,7 @@ hr {
   background-repeat: no-repeat;
 }
 .product_article_two_container .product_article_two_header_two {
+  margin-bottom: 12px;
   color: #1E2438;
   font-family: Scotch Deck, serif;
   font-size: 24px;
@@ -548,6 +570,7 @@ hr {
   text-transform: capitalize;
 }
 .product_article_two_container .product_article_two_text {
+  margin-bottom: 30px;
   color: #1E2438;
   font-family: Poppins, sans-serif;
   font-size: 16px;
@@ -581,8 +604,8 @@ hr {
 }
 .newsletter_container .newsletter_block {
   position: relative;
-  width: 662px;
-  height: 263px;
+  width: 1002px;
+  height: 463px;
   margin-bottom: 90px;
   background: #B1464A;
   display: inline-flex;
@@ -629,7 +652,7 @@ hr {
 }
 .newsletter_container .newsletter_block button {
   position: absolute;
-  top: 317px;
+  top: 288px;
   right: 243px;
   width: 172px;
   height: 49px;
@@ -705,6 +728,21 @@ footer .footer_container ul li:first-child {
   font-weight: 500;
   line-height: 29.709px;
   color: #FFFFFF;
+}
+footer hr {
+  background: rgba(255, 255, 255, 0.2);
+}
+footer .footer_copyright {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #FFF;
+  text-align: center;
+  font-family: Hind, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29.709px;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
