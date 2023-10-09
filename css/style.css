@@ -398,7 +398,7 @@ header {
 
 .product_one_grid_container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   justify-items: end;
 }
 
@@ -539,7 +539,7 @@ hr {
 }
 .product_article_two_container .product_article_two_grid_container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
 }
 .product_article_two_container .product_article_two_flex_container {
